@@ -1,0 +1,4 @@
+- name: Build & test
+  run: xcodebuild test \
+       -scheme ScanBudget \
+       -destination 'platform=iOS Simulator,name=iPhone 15'
